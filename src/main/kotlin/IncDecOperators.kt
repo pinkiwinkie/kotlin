@@ -7,4 +7,6 @@ fun main() {
     println(--number) // 11
     println(number--) // 11
     println(number) // 10
+    number.plus(1) //11 -> this way is recommended by Kotlin
+    number.minus(1) //10
 }
