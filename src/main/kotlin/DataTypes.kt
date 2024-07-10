@@ -1,5 +1,5 @@
 fun main() {
-    //2. Declaración de variables indicando el tipo de dato y el valor
+    //2. Declaration of variables indicating the data type and value
     var n: Int = 10
     var l: Long = 100L
     var d: Double = 3.14
