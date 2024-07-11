@@ -1,31 +1,31 @@
 //Optional data types: Null Safety.
 //Null Safety is the property by which Kotlin helps us manage the use of null values
 fun main() {
-    //1. Declara una variable no null
-    var neverNull: String = "Esta variable nunca es nula"
+    //1. Declare a non-null variable
+    var neverNull: String = "This variable is never null"
 
-    //2. Error de compilación al intentar asignar null a una variable no nula
+    //2. Compilation error when trying to assign null to a non-null variable
     // neverNull = null
 
-    //3. Declara una variable String que pueda ser nula
+    //3. Declare a String variable that can be null
     var name: String? = "Helena"
 
-    //4. Asigna un valor nulo a name
-    name = null // a diferencia del punto 2, aquí no hay error de compilación
+    //4. Assigns a null value to name
+    name = null // unlike point 2, there is no compilation error here
 
-    //5. Qué pasa si no indicamos el tipo?
-    var surnames = "kotlin deduce que esta variable no puede ser null"
+    //5. What happens if we do not indicate the type?
+    var surnames = "kotlin deduces that this variable cannot be null"
 
-    //6. Intenta asignar null a la variable surnames
-    // surnames = null -> esto provoca un error de compilación
+    //6. Try assigning null to the surnames variable
+    // surnames = null -> Compilation error
 
-    //7. Intenta declarar otros tipos de datos Null Safety
+    //7. Try declaring other data types Null Safety
     var age: Int? = null
     age = 15
     var height: Double? = 30.0
 
-    //8. Para qué sirve Null Safety en kotlin?
-        // Tal y como su nombre indica, esto sirve para asegurarnos de que los tipos de datos que manipulamos
-        // puedan ser null o no, esta propiedad de kotlin es una práctica muy recomendada y
-        // que ayuda a mejorar la calidad del código que escribimos
+    //8. What is Null Safety for in Kotlin?
+        // As its name suggests, this serves to ensure that the types of data we manipulate
+        // may or may not be null, this Kotlin property is a highly recommended practice and
+        // which helps improve the quality of the code we write
 }
