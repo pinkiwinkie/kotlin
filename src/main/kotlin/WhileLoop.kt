@@ -5,4 +5,11 @@ fun main() {
         println(brand[index])
         ++index
     }
+
+    //1. Write a loop that prints 0 to 9 on the screen using while
+    var i = 0
+    while (i < 10 ) {
+        println(i)
+        i++
+    }
 }
